@@ -1,9 +1,138 @@
-body{
-  background-color:#bcdbd3;
+body {
+  margin: 40px;
+  background:#C58882;
 }
-h3{font-size:30px;
-  color:#e9e1f4;
+
+.sidebar {
+  grid-area: sidebar;
 }
-h1{font-size:80px;
-  color:#f0e8eb;
+
+.sidebar2 {
+  grid-area: sidebar2;
+}
+
+.content {
+  grid-area: content;
+  
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wrapper {
+  z-index:-2
+  color: #444;
+}
+
+.wrapper {
+  font-family: 'Bad Script', cursive;
+  display: grid;
+  grid-gap: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-areas:
+    "header"
+    "sidebar"
+    "content"
+    "sidebar2"
+    "footer";
+  
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+      "header   header"
+      "sidebar  content"
+      "sidebar2 sidebar2"
+      "footer   footer";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    grid-template-columns: 120px auto 120px;
+    grid-template-areas:
+      "header  header  header"
+      "sidebar content sidebar2"
+      "footer  footer  footer";
+    max-width: 600px;
+    opacity: 0.75;
+  }
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}
+
+.sidebar2 {
+  background-color: #ccc;
+  color: #444;
+}
+h1 {
+  text-align: center;
+}
+.palm {
+  position: ;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.palm {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  position: relative;
+  z-index: -1;
+  top:25%;
+  position:sticky;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+div.sticky {
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://gdurl.com/BIkl");
+  position: fixed;
+  top: 0;
+    color: black;
+  font-weight:bold;
+  font-size:18px;
+  font-family: 'Satisfy', cursive;
+
 }
