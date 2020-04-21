@@ -1,3 +1,11 @@
+div.sticky{
+  position:sticky;
+  top:0;
+  text-align:center;
+  z-index: +2;
+  color:#6EC6CA;
+    font-size:42px
+}
 .wrapper {
   min-height: 100vh;
   font-family: 'Roboto Slab', serif;
