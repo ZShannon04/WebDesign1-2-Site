@@ -54,23 +54,23 @@ section {
 
 .nav {
   &__wrapper {
-    position: fixed;
+    position: sticky;
     height: 100%;
-    padding: 0px;
-      display: sticky;
+    padding: 2px;
+  display: flex;
  flex-flow: nowrap;
     justify-content: space-evenly;
   }
 
   & {
-    margin: 0 0 100px 30px; 
+    margin: 0 0 10px 10px; 
   }
   &__counter {
     font-size: 24px;
     transition: all 0.15s ease-out;
   }
   &__title {
-    font-size: 32px;
+    font-size: 322px;
     font-weight: 300;
     margin: 0 0 0.25em;
     width: 300px;
