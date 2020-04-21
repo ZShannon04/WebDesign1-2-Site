@@ -5,7 +5,7 @@ ul{
   margin:0;
   padding:0;
   background-color:#6EC6CA;
-  position:fixed;
+position: sticky;
   top:0;
   font-size:18px;
 }
