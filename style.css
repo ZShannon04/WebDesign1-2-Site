@@ -57,7 +57,8 @@ section {
     position: fixed;
     height: 100%;
     padding: 0px;
-
+ flex-flow: column nowrap;
+    justify-content: flex-end;
   }
 
   & {
