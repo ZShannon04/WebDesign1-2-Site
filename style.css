@@ -1,15 +1,103 @@
 body{
-  background-color: #ffb6c1;
+  margin:0;
+  background-color:#FFE8D4
 }
-h1 {
-  color: #e75480 ;
-  font-size: 40px;
+ul{
+  list-style-type:none;
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  background-color:pink;
+  position:fixed;
+  top:0;
+  font-size:18px;
 }
-p{
-  color:#bab86c;
-  font-size: 20px;
+li.nav{
+  display:inline;
+  float:right;
+  
 }
-h2{
-  color:#000080;
-  font-size:25px;
-{
+li a{
+  display: block;
+  text-decoration:none;
+  padding: 12px 40px;
+  color:purple;
+ 
+  
+}
+li a:hover{
+  background-color:#FFE8D4;
+  color: purple;
+}
+
+h1{
+	font-size:50px;
+	position:absolute;
+	color: black;
+	
+  margin-left:100px;
+      z-index: -1;
+
+}
+p {
+  margin-left: 200px;
+  margin-right:300px;
+font-family: 'Lora', serif;
+
+}
+h3{
+  margin-left: 170px;
+  
+}
+
+div.sticky{
+  position:sticky;
+  top:0;
+  border:3px solid purple;
+  text-align:right;
+  z-index: +2;
+  color:lightpink;
+    font-size:42px
+}
+td{
+  Border: 3px solid purple;
+  text-align: left;
+  padding: 4px;
+}
+table{
+  font-family: arial, sans-serif, ;
+  border-collapse: collapse;
+  width: 50%;
+  position:absolute;
+    top:190;
+  left:200px;
+  
+}
+
+tr:nth-child(even){
+  background-color: pink;
+  color: black;
+  font-family: 'Lora', serif;
+
+}
+tr:nth-child(odd){
+  color: black;
+  font-family: 'Lora', serif;
+
+}
+tr.top{
+  font-size:20px;
+}
+ol.facts{
+  color:black;
+  margin-left: 200px;
+  margin-right:300px;
+font-family: 'Lora', serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
