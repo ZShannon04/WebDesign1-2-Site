@@ -4,7 +4,7 @@ ul{
   overflow: hidden;
   margin: 0;
   padding: 0;
-background-color: #b2d8d8;
+background-color: #006666;
   position: fixed;
   top:0;
 
@@ -19,14 +19,14 @@ li a{
   display: block;
   text-decoration: none;
   padding: 10px 25px;
-    color: #008080;
+    color: #b2d8d8;
   font-weight:bold;
   font-size:18px;
   font-family: 'Satisfy', cursive;
 }
 li a:hover {
-   background-color: #C78283;
-  color: black;
+   background-color: #b2d8d8;
+  color: #006666;
 }
 .container1 {
   display:grid;
@@ -44,7 +44,7 @@ li a:hover {
   font-family: 'Bad Script', cursive;
 }
 .des {
-  background-color: #FFA8A9;
+  background-color: #ccdaff;
   border: 8px solid #f9e5bc;
   padding: 5px;
   font-size: 25px;
