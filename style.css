@@ -83,6 +83,14 @@ div.bio{
   height:60%;
   z-index:-2;
 }
+div.projects{
+  font-family: 'Satisfy', cursive;
+  float: center;
+  text-align: center;
+  width: 50%;
+  height:60%;
+  z-index:-2;
+}
 
 
 div.sticky {
