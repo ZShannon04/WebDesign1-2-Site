@@ -76,16 +76,11 @@ font-family: 'Satisfy', cursive;
 }
 
 div.bio{
- 
   font-family: 'Satisfy', cursive;
-  background-color: #DF928E;
-  border: 5px solid  #EAD2AC;
-  
   float: center;
   text-align: center;
   width: 50%;
   height:60%;
-
   z-index:-2;
 }
 
