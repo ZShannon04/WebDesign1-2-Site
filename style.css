@@ -4,7 +4,7 @@ ul{
   overflow: hidden;
   margin: 0;
   padding: 0;
-background-color: gold;
+background-color: #b2d8d8;
   position: fixed;
   top:0;
 
@@ -19,7 +19,7 @@ li a{
   display: block;
   text-decoration: none;
   padding: 10px 25px;
-    color: black;
+    color: #008080;
   font-weight:bold;
   font-size:18px;
   font-family: 'Satisfy', cursive;
