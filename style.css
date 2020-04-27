@@ -109,10 +109,10 @@ div.image{
 @media only screen and (max-width: 768px) {
  
   body {
-    background-color: grey;
+    background-color: #c0dce8;
   }
   ul{
-    background-color: green;
+    background-color: #ccdaff;
   }
  
 }
