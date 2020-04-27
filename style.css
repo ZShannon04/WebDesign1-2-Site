@@ -85,7 +85,7 @@ div.bio{
   text-align: center;
   width: 500px;
   height:100px;
-    height: auto;
+
   z-index:-2;
 }
 
@@ -114,5 +114,7 @@ div.image{
     background-color: #545454;
     color:#b2d8d8
   }
- 
+ div.bio{
+    width: 70%;
+  height: 60%;
 }
