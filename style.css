@@ -52,7 +52,7 @@ li a:hover {
   font-family: 'Bad Script', cursive;
 }
 body{
-  background:#C58882
+  background:#ccdaff
 }
 .container2{
     display: grid;
@@ -76,12 +76,11 @@ font-family: 'Satisfy', cursive;
 }
 
 div.bio{
-  position: sticky;
+ 
   font-family: 'Satisfy', cursive;
   background-color: #DF928E;
   border: 5px solid  #EAD2AC;
-  right: 150px;
-  top: 160px;
+  
   float: right;
   text-align: center;
   width: 500px;
@@ -112,7 +111,8 @@ div.image{
     background-color: #c0dce8;
   }
   ul{
-    background-color: #ccdaff;
+    background-color: #545454;
+    color:#b2d8d8
   }
  
 }
