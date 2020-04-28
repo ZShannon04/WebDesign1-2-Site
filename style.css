@@ -56,6 +56,7 @@ h3{
   font-size: 20px;
   color:red;
 }
+
 body{
   background:#ccdaff
 }
@@ -86,7 +87,10 @@ div.bio{
   text-align: center;
   z-index:-2;
 }
-
+p{
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+}
 
 div.sticky {
   position: sticky;
@@ -97,11 +101,7 @@ div.sticky {
   margin-left: auto;
   margin-right: auto;
 }
-div.image{
-  position: relative;
-  top: 650px;
-  z-index:-4;
-}
+
 
 @media only screen and (max-width: 768px) {
  
