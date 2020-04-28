@@ -82,11 +82,12 @@ font-family: 'Satisfy', cursive;
 }
 
 div.bio{
-  font-family: 'Satisfy', cursive;
+
   float: center;
   text-align: center;
   z-index:-2;
 }
+
 p{
   font-family: 'Bad Script', cursive;
   font-size: 20px;
