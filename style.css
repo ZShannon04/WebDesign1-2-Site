@@ -117,6 +117,10 @@ div.image{
     background-color: #c2c4e4;
     color:#545454;
   }
+  li a:hover {
+   background-color: ##c2c4e4;
+  color: #c2c4e4;
+}
  div.bio{
     width: 70%;
   height: 60%;
