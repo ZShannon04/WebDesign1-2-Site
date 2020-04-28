@@ -128,12 +128,16 @@ h4{
 }
   h3{
   font-family: 'Bad Script', cursive;
-  font-size: 20px;
+  font-size: 25px;
   color:#663399;
 }
 h4{
   font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
+  font-size: 30px;
   color:#00FF00;
   }
-  
+  p{
+ font-family: 'Handlee', cursive;
+  font-size: 10px;
+   
+}
