@@ -114,12 +114,12 @@ div.image{
     background-color: #c0dce8;
   }
   ul{
-    background-color: #c2c4e4;
-    color:#545454;
+    background-color:#545454 ;
+    color:#c0dce8;
   }
   li a:hover {
-   background-color: ##c2c4e4;
-  color: #c2c4e4;
+   background-color: #c2c4e4 ;
+  color: 	#545454;
 }
  div.bio{
     width: 70%;
