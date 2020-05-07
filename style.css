@@ -54,7 +54,8 @@ li a:hover {
 h3{
   font-family: 'Handlee', cursive;
   font-size: 20px;
-  color:red;
+  color:  #006666;
+  text-decoration: none;
 }
 
 body{
@@ -103,7 +104,9 @@ div.sticky {
   margin-right: auto;
 }
 
-
+h2{
+  text-decoration: underline wavy black;
+}
 
 @media only screen and (max-width: 768px) {
  
@@ -128,7 +131,9 @@ div.sticky {
   color:#663399;
 }
 
-  
+  h2{
+    text-decoration: underline overline;
+  }
   .center {
   display: block;
   margin-left: auto;
