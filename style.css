@@ -93,6 +93,11 @@ p{
   font-family: 'Bad Script', cursive;
   font-size: 20px;
 }
+p2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  color: #ffa500;
+}
 
 div.sticky {
   position: sticky;
@@ -109,7 +114,12 @@ h2{
 }
 
 @media only screen and (max-width: 768px) {
- 
+ p2{
+   color:red;
+   font-size:20px;
+   font-family: 'Montserrat', sans-serif;
+  }
+  
   body {
     background-color: #c0dce8;
   }
