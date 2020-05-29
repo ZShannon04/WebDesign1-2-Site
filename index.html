@@ -25,10 +25,86 @@
        <h2 > Bio </h2> 
        <h3>
 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/balloon_1f388.png" width="25">
-        Birthday
+        Birthday Things
 <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Birthday_Cake_Emoji_large.png?v=1571606066" width="25" >
      </h3>
-       <p> March 16, 2004</p>
+         <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Birth')">Birth</button>
+    <button class="tablinks" onclick="openCity(event, 'Small Times')">Small Times</button>
+    <button class="tablinks" onclick="openCity(event, 'Still Small')">Still Small</button>
+
+    <button class="tablinks" onclick="openCity(event, 'Middle')">Middle School</button>
+
+    <button class="tablinks" onclick="openCity(event, 'High')">High School</button>
+            <button class="tablinks" onclick="openCity(event, 'College')">College</button>
+  </div>
+
+  <div id="Birth" class="tabcontent">
+    <h3>About My Birth </h3>
+    <p>Birthday: March 16,2004
+      <br> Born In: San Diego, CA
+    <br> I was born sometime in the afternoon so my mom always says I was a lazy baby. But in reality i was born a day early so if anything, I was a proactive baby.</p>
+  </div>
+
+  <div id="Small Times" class="tabcontent">
+    <h3>Before 2nd Grade</h3>
+    <p>School: Creekside Elementary
+      <br> Mascot: Gecko
+      <br> I went to Creekside Elementary School, it was pretty lit. THey had a giant colorful mural with geckos on it because it was our mascot. 
+    <br> At this age I really liked Justin Beiber. I had a friend that *said* she was a vampire - I was skeptical but also lwky kinda believed it. Vampire girl disliked this other girl because vampire girl thought she was a werewolf. 
+    <br> I had another friend who did child modeling - my mom occasionally talks to her mom - i think she turned out okay but I'm not sure. 
+    <br> I once walked straight into a pole at the school while going home - idk what I was doing, but I certainly didnt have a phone at that time. </p>
+  </div>
+
+  <div id="Still Small" class="tabcontent">
+    <h3>The Move</h3>
+    <p>School: Deer Canyon Elementary
+      <br> Mascot: White Tail Deer
+    <br> The school somehow didn't have a mascot yet until a year after I transfered there and they had us vote. THey had like student submissions and then we voted on them. I voted for white tails and I'm pretty sure when I searched up what a white tail was, it said it was a tiger but yeah. Also lwky wanted Deer Canyon Dragons yep mhm third grade brains right there. I don't know why they weren't just like we're deers because oh idk OUR NAME.
+    <br> Deer Canyon will never be as lit as Creekside but like i had fun and had fun friends. 
+    <br> This was the time where I ran a lot because you could get prizes for it, and tbh all that running helped me not die in middle school and ENS.</p>
+  </div>
+
+  <div id="Middle" class="tabcontent">
+    <h3>Middle School ~eh~</h3>
+    <p>School: Mesa Verde Middle School
+      <br> Mascot: Eagle - what kind? idk
+    <br>Sixth Grade: It was fine - I had a teacher that used to teach at Deer Canyon who already knew me aka Mrs.Fice. This was also the start of me being bad at math.
+    <br>Seventh Grade: Joie Nolasco will always be iconic- 511 Joie. I hated sentence diagraming but Renaissance fair will always be great. 
+    <br>Eigth Grade: Jennifer Hanson - she loved all the girls - I never got in trouble. I sat at a table with all guys and partially helped carry out something that caused Hanson to say something along the lines of "That entire table - except Shannon - is not going to break until that is cleaned up." BEcause she didn't think that I had taken part in such a foul act. </p>
+  </div>
+
+  <div id="High" class="tabcontent">
+    <h3>High Schooollll</h3>
+    <p>School: Westveiw High School
+      <br> Mascot: Wolverine - but rly it's just that claw thing because who would put a wolverine on their merch
+    <br> Freshman Year: It wasn't bad but I did take Honors English and hated it and did terrible. I dropped APES. I did amazingly well in Int 2 and terrible in Int 3. ENS was good with Pidgeon and Champoux. I somehow did not procrastinate on that bio board. Physics was confusing and my lab group carried me. Marketing Econ with Rankin was nice - she liked me and my friend. She was kind of confusing though.
+    Sophmore Year: I'm in Honors Humanities like an idiot. Who let me take this class when Honors English was terrible. It was because I was like: I need to take this cuz I'm going to take APEL." Guess what I'm not taking APEL anymore because I don't want to actually die. World History with Jain was great. Chem 1-2 with Christopher has completely been removed from my memory. Calc AB is a struggle. AP Bio with Ingram is good and really chill - I don
+    t know if I learned anything. Web Design is chill and doesn't make me want to die. Honors Hmanities makes me want to die.
+    <br>Junior Year: I probabl am going to have an easier time than sophmore year.
+    <br> Senior Year: I have no plans honey. just let me graduate on time and get into a college </p>
+  </div>
+
+       <div id="College" class="tabcontent">
+    <h3>College</h3>
+         <p> Just let me get into college - preferably a four year </p>
+       </div>
+       
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
       <br>
        
        
