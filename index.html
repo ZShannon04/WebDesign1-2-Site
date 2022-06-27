@@ -30,14 +30,14 @@
 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/sunflower_1f33b.png" width="25" >
      </h3>
          <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'Birth')">Birth</button>
-    <button class="tablinks" onclick="openCity(event, 'Small Times')">Small Times</button>
-    <button class="tablinks" onclick="openCity(event, 'Still Small')">Still Small</button>
+    <button class="tablinks" onclick="opentime(event, 'Birth')">Birth</button>
+    <button class="tablinks" onclick="opentime(event, 'Small Times')">Small Times</button>
+    <button class="tablinks" onclick="opentime(event, 'Still Small')">Still Small</button>
 
-    <button class="tablinks" onclick="openCity(event, 'Middle')">Middle School</button>
+    <button class="tablinks" onclick="opentime(event, 'Middle')">Middle School</button>
 
-    <button class="tablinks" onclick="openCity(event, 'High')">High School</button>
-            <button class="tablinks" onclick="openCity(event, 'College')">College</button>
+    <button class="tablinks" onclick="opentime(event, 'High')">High School</button>
+            <button class="tablinks" onclick="opentime(event, 'College')">College</button>
   </div>
 
   <div id="Birth" class="tabcontent">
@@ -76,29 +76,57 @@
   </div>
 
   <div id="High" class="tabcontent">
-    <h3>High Schooollll</h3>
+    <h3>High Schoool</h3>
     <p>School: Westveiw High School
       <br> Mascot: Wolverine - but rly it's just that claw thing because who would put a wolverine on their merch
-    <br> Freshman Year: It wasn't bad but I did take Honors English and hated it and did terrible. I dropped APES. I did amazingly well in Int 2 and terrible in Int 3. ENS was good with Pidgeon and Champoux. I somehow did not procrastinate on that bio board. Physics was confusing and my lab group carried me. Marketing Econ with Rankin was nice - she liked me and my friend. She was kind of confusing though.
-    Sophmore Year: I'm in Honors Humanities like an idiot. Who let me take this class when Honors English was terrible. It was because I was like: I need to take this cuz I'm going to take APEL." Guess what I'm not taking APEL anymore because I don't want to actually die. World History with Jain was great. Chem 1-2 with Christopher has completely been removed from my memory. Calc AB is a struggle. AP Bio with Ingram is good and really chill - I don
-    t know if I learned anything. Web Design is chill and doesn't make me want to die. Honors Hmanities makes me want to die.
-    <br>Junior Year: I probabl am going to have an easier time than sophmore year.
-    <br> Senior Year: I have no plans honey. just let me graduate on time and get into a college </p>
+    </p>
+    <div class="within">
+    <button class="tablinks" onclick="opentime(event, '9th Grade')">9th Grade</button>
+    <button class="tablinks" onclick="opentime(event, '10th Grade')">10th Grade</button>
+    <button class="tablinks" onclick="opentime(event, '11th Grade')">11th Grade</button>
+
+    <button class="tablinks" onclick="opentime(event, '12th Grade')">12th Grade</button>
   </div>
+    
+  <div id="9th Grade" class="tabcontent">
+    <h3>9th Grade</h3>
+    <p> Freshman Year: It wasn't bad but I did take Honors English and hated it and did terrible. I dropped APES. I did amazingly well in Int 2 and terrible in Int 3. ENS was good with Pidgeon and Champoux. I somehow did not procrastinate on that bio board. Physics was confusing and my lab group carried me. Marketing Econ with Rankin was nice - she liked me and my friend. She was kind of confusing though.
+    </p>
+    </div>
+    
+  <div id="10th Grade" class="tabcontent">
+    <h3>10th Grade</h3>
+    <p>Sophmore Year: I'm in Honors Humanities like an idiot. Who let me take this class when Honors English was terrible. It was because I was like: I need to take this cuz I'm going to take APEL." Guess what I'm not taking APEL anymore because I don't want to actually die. World History with Jain was great. Chem 1-2 with Christopher has completely been removed from my memory. Calc AB is a struggle. AP Bio with Ingram is good and really chill - I don
+    t know if I learned anything. Web Design is chill and doesn't make me want to die. Honors Hmanities makes me want to die.
+    </p>
+    </div>
+    
+  <div id="High" class="tabcontent">
+    <h3>11th Grade</h3>
+    <p>Junior Year: I probabl am going to have an easier time than sophmore year. Lmao uh pandemic things. Also like
+    </p>
+    </div>
+    
+     <div id="12th Grade" class="tabcontent">
+    <h3>12th Grade</h3>
+    <p>Senior Year: I have no plans honey. just let me graduate on time and get into a college
+    </p>
+    </div>
+    
 
        <div id="College" class="tabcontent">
     <h3>College</h3>
          <p> Just let me get into college - preferably a four year </p>
          <p> I did get into a four-year! </p>
          <p> School: (The) George Washington University 
-         <br> Mascot: Colonials, unofficially the Hippos/River Horse  ( thought they will be changing it to something else)
+         <br> Mascot: Colonials, unofficially the Hippos/River Horse  (though they will be changing it to something else)
            <br> Major: Bachelor of Science in Mechanical Engineering with an aerospace engineering option
          </p>
          
        </div>
        
   <script>
-    function openCity(evt, cityName) {
+    function opentime(evt, timeName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -108,7 +136,7 @@
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
-      document.getElementById(cityName).style.display = "block";
+      document.getElementById(timeName).style.display = "block";
       evt.currentTarget.className += " active";
     }
   </script>
